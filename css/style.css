@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-title {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.card-img-top {
+    height: 16rem;
+}
+
+.card {
+    width: 25rem;
+    cursor: pointer;
+}
+
+.section-footer {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+.second2 {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second a, .second2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.second a:hover, .second2 a:hover {
+    color: #FFFFFF;
+    transition: 0.2s;
+    text-decoration: none
+}
+
+/* Estilização dos cards */
+
+.form {
+    object-fit: fill;
+}
+
+.clock {
+    object-fit: cover;
+    height: 16rem;
+}
+
+.login {
+    object-fit: fill;
+    height: 16rem;
+}
+
+@media (max-width: 763px) {
+    .card {
+        width: 23rem;
+    }
+}
+
