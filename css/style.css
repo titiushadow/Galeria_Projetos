@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .text-title {
     color: #2d2d2d;
     text-decoration: underline;
@@ -60,6 +64,11 @@
 .login {
     object-fit: fill;
     height: 16rem;
+}
+
+.btn-footer {
+    width: 4em;
+    height: 3rem;
 }
 
 @media (max-width: 763px) {
