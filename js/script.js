@@ -178,3 +178,18 @@ function login_divider() {
     })
 }
 
+// GreenBox
+function greenbox() {
+    Swal.fire({
+        title: "GreenBox",
+        html: '<p>Landing page de um aplicativo para gerencimanto de finanças, esse é meu TCC.</p>' + 
+        '<a class="color" href="https://greenbox.bohr.io/" target="_blank">Ver projeto</a>',
+        imageUrl: "/img/greenbox_contato.png",
+        imageWidth: 380,
+        imageHeight: 300,
+        imageAlt: 'GreenBox',
+        confirmButtonColor: '#3085d6',
+        position: 'center',
+    })
+}
+

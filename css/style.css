@@ -22,6 +22,11 @@ html {
     cursor: pointer;
 }
 
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
 .section-footer {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
 }
@@ -54,6 +59,10 @@ html {
 
 .form {
     object-fit: fill;
+}
+
+.form-last {
+    object-fit:none;
 }
 
 .clock {
